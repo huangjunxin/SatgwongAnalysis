@@ -616,7 +616,7 @@ def generate_sql():
             
             # 提取数据
             words = row.get('words', '').strip()
-            jyutping = row.get('jyutping++', '').strip()
+            jyutping = row.get('jyutping', '').strip()
             meanings = row.get('meanings', '').strip()
             note = row.get('note', '').strip()
             category_1 = row.get('category_1', '').strip()
